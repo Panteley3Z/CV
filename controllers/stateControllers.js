@@ -36,8 +36,8 @@ class BaseMode {
         return this.getMode()
     }
 
-    getData = () => JSON.parse(sessionStorage.getItem("siteModes"));
-    pushData = (d) => sessionStorage.setItem("siteModes", JSON.stringify(d))
+    getData = () => JSON.parse(localStorage.getItem("siteModes"));
+    pushData = (d) => localStorage.setItem("siteModes", JSON.stringify(d))
 }
 
 class ThemeMode extends BaseMode {

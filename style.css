@@ -943,7 +943,6 @@ body {
 /* MAIN */
 #main {
     color: var(--colorOnBody);
-    overflow: hidden;
 }
 
 .full-height {
@@ -952,6 +951,7 @@ body {
 
 .box-block {
     padding: var(--gap-normal) var(--gap-normal) var(--gap-normal) var(--offset-main-left);
+    overflow-x: hidden;
 }
 
 .hero-block {
